@@ -1,0 +1,45 @@
+Select-AzureSubscription "WMC Online" 
+ 
+### Source VHD (West US) - authenticated container ###
+$srcUri = "http://portalvhds6bltcrppyhg8n.blob.core.windows.net/vhds/P-WCAZ-WFE01-P-WCAZ-WFE01-0425-4.vhd" 
+ 
+### Source Storage Account (West US) ###
+$srcStorageAccount = "portalvhds6bltcrppyhg8n"
+$srcStorageKey = "mlH4nnUSDoGHAPLkMdx94g8W1L4M9I9zXJl3hdPFfHcuUginq6WHQPp5g6UTIR+ETpfWprWiSuBz6zQd9P3kkg=="
+ 
+### Target Storage Account (West US) ###
+$destStorageAccount = "twcaz"
+$destStorageKey = "pPza4GmrE9C1qaITXUbZ9pkgMgWW8oJ3eFXbCgJNUDS6LNMOBl6+5dspMDalWKiDWPN5tdWRg9fs8mUmHFOLjQ=="
+ 
+### Create the source storage account context ### 
+$srcContext = New-AzureStorageContext  –StorageAccountName $srcStorageAccount `
+                                        -StorageAccountKey $srcStorageKey  
+ 
+### Create the destination storage account context ### 
+$destContext = New-AzureStorageContext  –StorageAccountName $destStorageAccount -StorageAccountKey $destStorageKey  
+ 
+### Destination Container Name ### 
+$containerName = "vhds"
+ 
+### Create the container on the destination ### 
+New-AzureStorageContainer -Name $containerName -Context $destContext 
+ 
+### Start the asynchronous copy - specify the source authentication with -SrcContext ### 
+$blob1 = Start-AzureStorageBlobCopy -srcUri $srcUri `
+                                    -SrcContext $srcContext `
+                                    -DestContainer $containerName `
+                                    -DestBlob "install.vhd" `
+                                    -DestContext $destContext
+									
+									
+									
+									
+									
+									
+									
+									
+								STATUS
+								
+								
+								
+								
