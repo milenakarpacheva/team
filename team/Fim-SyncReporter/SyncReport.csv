@@ -1,0 +1,6 @@
+Connection Name,Status,SyncProfile,Started,SyncErrors,DiscoveryErrors,RetryErrors
+MOSS-UserProfile,completed-warnings,MOSS_FULLIMPORT_01acca2c-627c-464d-bcd1-71ad900b89fc,2014-06-11 08:15:34.637,195,0,0
+MOSSAD-Contoso_OU_4,completed-export-errors,DS_EXPORT,2014-06-11 08:16:53.853,195,0,0
+MOSSAD-TEST_CONNECTION,stopped-connectivity,DS_FULLIMPORT,2014-06-11 08:19:05.340,0,0,0
+MOSSAD-TEST_CONNECTION,stopped-connectivity,DS_FULLIMPORT,2014-06-11 08:16:53.837,0,0,0
+MOSSAD-TEST_CONNECTION,stopped-connectivity,DS_FULLIMPORT,2014-06-11 08:15:38.137,0,0,0
