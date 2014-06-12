@@ -1,0 +1,5 @@
+<tr><td>MOSS-UserProfile</td><td>MOSS_FULLIMPORT_01acca2c-627c-464d-bcd1-71ad900b89fc</td><td>completed-warnings</td><td>2014-06-11 08:15:34.637</td><td>195</td></tr>
+<tr><td>MOSSAD-Contoso_OU_4</td><td>DS_EXPORT</td><td>completed-export-errors</td><td>2014-06-11 08:16:53.853</td><td>195</td></tr>
+<tr><td>MOSSAD-TEST_CONNECTION</td><td>DS_FULLIMPORT</td><td>stopped-connectivity</td><td>2014-06-11 08:19:05.340</td><td>0</td></tr>
+<tr><td>MOSSAD-TEST_CONNECTION</td><td>DS_FULLIMPORT</td><td>stopped-connectivity</td><td>2014-06-11 08:16:53.837</td><td>0</td></tr>
+<tr><td>MOSSAD-TEST_CONNECTION</td><td>DS_FULLIMPORT</td><td>stopped-connectivity</td><td>2014-06-11 08:15:38.137</td><td>0</td></tr>
