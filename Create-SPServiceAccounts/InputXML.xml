@@ -1,0 +1,82 @@
+<ServiceAccounts> 
+  <Account>
+	<AccountName>SP_Farm</AccountName> 
+	<Password>demo!234</Password>
+	<Description>SharePoint Farm Account</Description>
+  </Account>
+  <Account>
+	<AccountName>SP_Admin</AccountName> 
+	<Password>demo!234</Password>
+	<Description>The server farm account is used to perform the following tasks: - Setup -SharePoint Products Configuration Wizard </Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_PortalAppPool</AccountName> 
+	<Password>demo!234</Password>
+	<Description>The Pool account is used to run the Web Application Pools</Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_Services</AccountName> 
+	<Password>demo!234</Password>
+	<Description>The Services Account is used to run the Service Application Pool</Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_SearchContent</AccountName> 
+	<Password>demo!234</Password>
+	<Description>The Default Content Access Account for the Search Service Application </Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_SearchService</AccountName> 
+	<Password>demo!234</Password>
+	<Description>Service Account to run the SharePoint Search “Windows Service” </Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_ProfilesAppPool</AccountName> 
+	<Password>demo!234</Password>
+	<Description>Used for the My Sites Web Application </Description>
+  </Account>
+  <Account>
+	<AccountName>SP_ProfileSync</AccountName> 
+	<Password>demo!234</Password>
+	<Description>The User Profile Synchronization Account </Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_CacheSuperUser</AccountName> 
+	<Password>demo!234</Password>
+	<Description>Cache Account Super User</Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_CacheSuperRead</AccountName> 
+	<Password>demo!234</Password>
+	<Description>Cache Account Super Reader</Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_ExcelUser</AccountName> 
+	<Password>demo!234</Password>
+	<Description>Used for Excel Services</Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_VisioUser</AccountName> 
+	<Password>demo!234</Password>
+	<Description>Used for Visio Services</Description>
+  </Account> 
+  <Account>
+	<AccountName>SP_PerfPointUser</AccountName> 
+	<Password>demo!234</Password>
+	<Description>Used for Performance Point</Description>
+  </Account> 
+  <Account>
+	<AccountName>SQL_Admin</AccountName> 
+	<Password>demo!234</Password>
+	<Description>SQL Admin on the SQL Server. Used to Install the SQL Server</Description>
+  </Account> 
+  <Account>
+	<AccountName>SQL_Agent</AccountName> 
+	<Password>demo!234</Password>
+	<Description>SQL Agent Service Account</Description>
+  </Account> 
+  <Account>
+	<AccountName>SQL_Engine</AccountName> 
+	<Password>demo!234</Password>
+	<Description>SQL Engine Service Account</Description>
+  </Account> 
+</ServiceAccounts>

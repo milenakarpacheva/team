@@ -1,0 +1,17 @@
+AccountName,Description,Password
+SP_Farm,SharePoint Farm Account,demo!239
+SP_Admin,The server farm account is used to perform the following tasks: - Setup -SharePoint Products Configuration Wizard,demo!235
+SP_PortalAppPool,The Pool account is used to run the Web Application Pools,demo!236
+SP_Services,The Services Account is used to run the Service Application Pool,demo!237
+SP_SearchContent,The Default Content Access Account for the Search Service Application ,demo!238
+SP_SearchService,Service Account to run the SharePoint Search “Windows Service” ,demo!239
+SP_ProfilesAppPool,Used for the My Sites Web Application ,demo!240
+SP_ProfileSync,The User Profile Synchronization Account ,demo!241
+SP_CacheSuperUser,Cache Account Super User,demo!242
+SP_CacheSuperRead,Cache Account Super Reader,demo!243
+SP_ExcelUser,Used for Excel Services,demo!244
+SP_VisioUser,Used for Visio Services,demo!245
+SP_PerfPointUser,Used for Performance Point,demo!246
+SQL_Admin,SQL Admin on the SQL Server. Used to Install the SQL Server,demo!247
+SQL_Agent,SQL Agent Service Account,demo!248
+SQL_Engine,SQL Engine Service Account,demo!249
